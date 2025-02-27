@@ -5,6 +5,8 @@ def mod_inverse(a):
         if (a * i) % 26 == 1:
             return i
     return None
+def test(a,b):
+    print("Test: ", a + b)
 
 def encrypt_func(plainText, a, b):
     msg = ""
